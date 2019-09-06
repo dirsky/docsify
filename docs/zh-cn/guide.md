@@ -1,3 +1,3 @@
-# Guide
+# 中文引导Guide
 
-> This is Guide.
+> This is 中文Guide.

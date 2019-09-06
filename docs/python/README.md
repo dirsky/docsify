@@ -1,6 +1,6 @@
-# Guide
+# Python
 
-> This is Guide.
+> This is Python Guide.
 
 - [ ] foo
 - bar

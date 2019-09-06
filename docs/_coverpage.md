@@ -6,6 +6,3 @@
 
 [Java](java/)
 [Python](python/)
-[Flutter](Flutter/)
-[AI](AI)
-[go](go)

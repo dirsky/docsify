@@ -1,6 +1,7 @@
-- [主页]()
-- 类别
+- [Home]()
+- Category
   - [Java](java/)
   - [Python](python/)
-- 帮助
-  - [help](help/)
+  - [C#.Net](cSharp/)
+  - [BigData](BigData/)
+- [Help](help/)

@@ -1,10 +1,23 @@
-# Python
+# Python之旅
 
-> This is Python Guide.
+> This is My Python Process.
 
-- [ ] foo
-- bar
-- [x] baz
-- [] bam <~ not working
-  - [ ] bim
-  - [ ] lim
+## 基础
+  - [x] 入门
+  - [x] 掌握
+  - [x] 精通
+  
+## Scrapy框架
+  - [x] 入门
+  - [x] 掌握
+  - [ ] 精通
+  
+## Django
+  - [x] 入门
+  - [ ] 掌握
+  - [ ] 精通
+  
+## Flask
+  - [ ] 入门
+  - [ ] 掌握
+  - [ ] 精通

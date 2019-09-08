@@ -7,12 +7,12 @@
   - [x] 掌握
   - [x] 精通
   
-## Spring
+## Spring Boot
   - [x] 入门
   - [x] 掌握
   - [ ] 精通
   
-## Cloud
+## Spring Cloud
   - [x] 入门
   - [x] 掌握
   - [ ] 精通

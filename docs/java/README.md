@@ -9,8 +9,8 @@
   
 ## Spring Boot
   - [x] 入门（单点登陆、Maven、Git、SVN、alibaba编程规范、核心注解）
-  - [x] 掌握（SpringMVC、SDubbo、高并发、线程池、热部署、缓存、JPA、定时任务、单元测试）
-  - [x] 精通（MyBatis3、SM框架整合、RBAC、JFinal、Shiro、nginx、redis、mq、zookeeper）
+  - [x] 掌握（SpringMVC、Dubbo、高并发、线程池、热部署、缓存、JPA、定时任务、单元测试）
+  - [x] 精通（MyBatis3、SSM框架整合、RBAC、JFinal、Shiro、nginx、redis、mq、zookeeper）
   
 ## Spring Cloud
   - [x] 入门（Eureka）

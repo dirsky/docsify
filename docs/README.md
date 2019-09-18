@@ -1,6 +1,6 @@
 # 个人简历
 
-> http://gzxu.top/#/
+> http://gzxu.top/docsify/#/
 
 ## 创建方式
 

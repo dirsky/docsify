@@ -1,4 +1,3 @@
-# Docker Base
   
 > Author: gzxu@vip.qq.com
 >

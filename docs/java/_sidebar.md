@@ -1,1 +1,4 @@
 - [主页]()
+- [简介](/java/)
+- [gc-note](/java/gc-note)
+- [将springboot打包为docker](/java/springboot2docker)

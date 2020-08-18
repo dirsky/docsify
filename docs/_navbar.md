@@ -1,8 +1,6 @@
 - [Home]()
 - Category
-  - [Java](lang/java/)
-  - [Python](lang/python/)
-  - [C#.Net](lang/cSharp/)
+  - [Lang](lang/)
   - [BigData](BigData/)
   - [DB](DB/)
   - [Docker](docker/)

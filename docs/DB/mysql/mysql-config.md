@@ -1,5 +1,4 @@
 
-## mysql-config
 
 ```
 [mysqld]

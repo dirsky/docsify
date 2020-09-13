@@ -73,6 +73,8 @@ sudo systemctl restart docker
        "https://mirror.ccs.tencentyun.com"
   ]
 }
+
+docker info查看Registry Mirrors
 ```
 
 ## 2 Edit and Inspect Docker

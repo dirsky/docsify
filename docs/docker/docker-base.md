@@ -66,10 +66,18 @@ sudo tee /etc/docker/daemon.json <<-'EOF'
 }
 EOF
 
+{
+   "registry-mirrors": [
+       "https://mirror.ccs.tencentyun.com"
+  ]
+}
+
 sudo systemctl daemon-reload
 sudo systemctl restart docker
 
 # 解释：tee 命令相当于管道的一个T型接头。它将从 STDIN 过来的数据同时发往两处。一处是STDOUT ，另一处是 tee 命令行所指定的文件名
+
+docker info查看Registry Mirrors
 ```
 
 ## 2 Edit and Inspect Docker

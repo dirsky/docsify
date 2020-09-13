@@ -1,4 +1,4 @@
-  
+
 > Author: gzxu@vip.qq.com
 >
 > Date: July 25 2020
@@ -17,15 +17,13 @@ yum install -y yum-utils device-mapper-persistent-data lvm2
 yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo 
 # set aliyun yum source
 yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo 
-# option set tencent cloud source
-http://mirrors.tencentyun.com/centos/7/updates/x86_64/
 
 # view config is success
 vim /etc/yum.repos.d/docker-ce.repo
 
-yum update # ensure yum package is up to date. a long time...
 # uninstall old version
 yum remove docker  docker-common docker-selinux docker-engine
+yum update # ensure yum package is up to date. a long time...
 ```
 
 
@@ -45,7 +43,6 @@ docker version
 
 ```shell
 systemctl start docker 
-systemctl stop docker
 systemctl enable docker
 systemctl status docker
 ```
@@ -70,6 +67,12 @@ sudo systemctl daemon-reload
 sudo systemctl restart docker
 
 # 解释：tee 命令相当于管道的一个T型接头。它将从 STDIN 过来的数据同时发往两处。一处是STDOUT ，另一处是 tee 命令行所指定的文件名
+
+{
+   "registry-mirrors": [
+       "https://mirror.ccs.tencentyun.com"
+  ]
+}
 ```
 
 ## 2 Edit and Inspect Docker
@@ -125,14 +128,15 @@ apt-get install vim
 ### 2.6 centos下新用户使用docker
 
 ```shell
+解决方案：
+sudo gpasswd -a $USER docker #将当前用户添加至docker用户组
+newgrp docker #更新docker用户组
+
 # 错误：Got permission denied while trying to connect to the Docker daemon socket
 # 自己理解：docker默认对docker用户组给与权限
 # 本质是修改了/etc/group 下的docker:x:992:pc,mac,node
-
 sudo groupadd docker  # 添加docker用户组
-sudo gpasswd -a $XXX docker  # 检测当前用户是否已经在docker用户组中，其中XXX为用户名，例如我的，liangll
-sudo gpasswd -a $USER docker #将当前用户添加至docker用户组
-newgrp docker #更新docker用户组
+sudo gpasswd -a $frank docker  # 检测当前用户frank是否已经在docker用户组中
 ```
 
 ### 2.7 docker与本机传文件

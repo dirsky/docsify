@@ -9,4 +9,3 @@
 [C#.Net](lang/cSharp/)
 [BigData](BigData/)
 [DB](DB/)
-[Docker](docker/)

@@ -1,3 +1,2 @@
 - [主页]()
 - [简介](DB/)
-- [mysql-config](DB/mysql/mysql-config)

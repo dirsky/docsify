@@ -3,6 +3,4 @@
   - [Lang](lang/)
   - [BigData](BigData/)
   - [DB](DB/)
-  - [Docker](docker/)
-  - [Git](git/)
 - [Help](help/)

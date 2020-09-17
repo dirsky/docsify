@@ -1,2 +1,0 @@
-windows的话，你需要装一下git bash软件，
-然后把bin目录添加到系统环境变量PATH中，你会发现很多linux命令都在windows上可用了。

@@ -1,6 +1,6 @@
 # 个人简历
 
-> http://gzxu.top/docsify/#/
+> https://dirsky.github.io/docsify/#/
 
 ## 创建方式
 

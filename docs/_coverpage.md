@@ -2,7 +2,7 @@
 
 # 徐先生的技术栈 <small>2.0</small>
 
-> You need to believe that something extraordinary is possible.
+> 一个狂热的技术爱好者.
 
 [Java](lang/java/)
 [Python](lang/python/)
